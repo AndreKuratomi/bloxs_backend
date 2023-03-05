@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 
 from app.configs.database import db
-# from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.security import generate_password_hash, check_password_hash
 
 
 @dataclass
